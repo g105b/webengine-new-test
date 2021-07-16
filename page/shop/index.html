@@ -1,0 +1,13 @@
+<h1>This is the shop index!</h1>
+
+<p>
+	Here are the items in stock:
+</p>
+
+<ul id="category-list">
+	<li data-template>
+		<a href="/shop/{{category}}" data-bind:text="category">Category</a>
+		:
+		<a href="/shop/{{category}}/{{item}}" data-bind:text="item">Item</a>
+	</li>
+</ul>
